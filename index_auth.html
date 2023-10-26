@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/stlye_auth.css">
+    <title>Запись к врачу на прием</title>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="back"><img src="image/arrow.svg" class="arrow" alt="">Назад</a>
+            <h1 class="title">Чтобы продолжить запись к врачу, укажите ваш номер телефона</h1>
+            <div class="menu">
+                <div class="menu-wrapper">
+                    <h2 class="menu-title">На указанный номер мы отправим одноразовый пароль</h2>
+                        <form action="" method="post">
+                            <input name="phone" class="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" type="tel">
+                        </form>
+                        <p class="personal">Нажимая кнопку “Записаться”, я подтверждаю свое согласние 
+                        на обработку  моих персональных данных: на сбор, хранение, использование номера телефона для регистрации в сервисе компании ООО “Медкарта” в соответсвии с ФЗ 
+                        “О персональных данных” от 27.07.2006 №152-ФЗ.</p>
+                        <input type="submit" value="Записаться" class="consultation-btn">
+                    </div>
+                </div>
+            </div>
+    </header>
+        <main>
+            <div class="container main-container">
+                <h3 class="date">2 МАРТА (ВТОРНИК) В 12:45 - 13:00</h3>
+                <h4 class="title-card">Прием в клинике</h4>
+                <h5 class="doc">Врач акушер-гинеколог</h5>
+                <p class="p-text">Первичный прием</p>
+                <p class="price">Стоимость приема:<span class="price-value"> 500 ₽</span></p>
+                    <div class="right-sidebar">
+                        <div class="about-doc">
+                            <img src="image/doctor.jpg" class="doctor-jpg" alt="">
+                            <div>
+                            <h3 class="name">Алиева Фатма Бахшишовна</h3>
+                            <h4 class="description">врач акушер-гинеколог высшей категории, кандидат медицинских наук, член ассоциации акушеров-гинекологов Крыма.</h4>
+                            </div>
+                        </div>
+                    <div class="location">
+                        <img src="image/point.svg" alt="">
+                        <h4>Центр женского здоровья «Фемина»</h4>
+                        <p>г. Симферополь,<br>ул. Севастопольская, 68а</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+</body>
+</html>

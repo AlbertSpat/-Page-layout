@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.00175px;
+    color: #000000;
+}
+
+body {
+    position: relative;
+}
+
+h1 {
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.00175px;
+    color: #000000;
+}
+
+h2 {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.00175px;
+    color: #000000;
+}
+
+p {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: -0.00175px;
+}
+
+.container {
+    padding: 0   15px;
+}
+
+header {
+    width: 100%;
+    border-bottom: #000000 1px solid;
+    padding-bottom: 9px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.hamburger {
+    width: 24px;
+    height: 28px;
+    background-image: url(../images/hamburger.svg);
+}
+
+.logo {
+    width: 106px;
+    height: 28px;
+    background-image: url(../images/logo.png);
+}
+
+.call {
+    width: 26px;
+    height: 26px;
+    background-image: url(../images/Call.svg);
+}
+
+.logo, .call, .hamburger {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.main-container h1 {
+    text-align: start;
+}
+
+.wrapper-card > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-card div:nth-child(1) .card:nth-child(1) h2 {
+    width: 50%;
+}
+
+.wrapper-card div:nth-child(2) .card:nth-child(2) h2 {
+    width: 50%;
+}
+
+.card h2 {
+    text-align: start;
+    padding-left: 12px;
+    padding-top: 8px;
+}
+
+.wrapper-card > div:nth-child(1) {
+    margin-top: 15px;
+}
+
+.wrapper-card div .card {
+    background-repeat: no-repeat;
+    background-size: 53px 53px;
+    background-position: 95% 95%;
+    border-radius: 11px ;
+}
+
+.wrapper-card div:nth-child(1) .card:nth-child(1) {
+    width: 58%;
+    height: 124px;
+    background-color: #BDD4FC;
+    background-image: url(../images/smartphone1.svg);
+}
+
+
+.wrapper-card div:nth-child(1) .card:nth-child(2) {
+    width: 38%;
+    height: 124px;
+    background-color: #FFDBFB;
+    background-image: url(../images/smartphone2.svg);
+}
+
+.wrapper-card > div:nth-child(2), .wrapper-card > div:nth-child(3) {
+    margin-top: 8px;
+}
+
+.wrapper-card div:nth-child(2) .card:nth-child(1) {
+    width: 48%;
+    height: 124px;
+    background-color: #B1ECFF;
+    background-image: url(../images/book1.svg);
+}
+
+.wrapper-card div:nth-child(2) .card:nth-child(2) {
+    width: 48%;
+    height: 124px;
+    background-color: #FBD0D0;
+    background-image: url(../images/computer1.svg);
+}
+
+.wrapper-card div:nth-child(3) .card {
+    width: 100%;
+    height: 124px;
+    background-color: #DAD5FC;
+    background-image: url(../images/prescription1.svg);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px 20px 16px;
+}
+
+.footer-container a div p, .footer-container a {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 8px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    text-decoration: none;
+    color: #484848;
+}
+
+.footer-container a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 28px;
+    height: 28px;
+}
+
+.link-home {
+    background-image: url(../images/active/Home.svg);
+}
+
+.link-category {
+    background-image: url(../images/Iconly/Light/Category.svg);
+}
+
+.link-rec {
+    background-image: url(../images/Iconly/Light/Star.svg);
+}
+
+.link-medcard {
+    background-image: url(../images/Iconly/Light/PaperPlus.svg);
+}
+
+.link-profile {
+    background-image: url(../images/Iconly/Light/Profile.svg);
+}   
